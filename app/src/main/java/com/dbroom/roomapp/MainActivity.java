@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         //insert data to contactDB
         RoomDBHelper roomDBHelper = RoomDBHelper.getDatabase(this);
-        roomDBHelper.contactDao().insertContact(new ContactModel("shruti", 7284078073L));
+        roomDBHelper.contactDao().insertContact(new ContactModel("shruti", 9998887776L));
 
     }
 }
